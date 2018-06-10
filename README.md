@@ -11,7 +11,7 @@ Quadratic programs refer to optimization problems in which the objective functio
 In this project, mutliclass SVM is implemented with Stochastic Gradient Descent. Crammer and Singer’s SVM formulation is considered for implmenting SVM, `https://www.csie.ntu.edu.tw/ ̃cjlin/papers/multisvm.pdf`. Note that there are several different formulations for multiclass
 
 ## Dataset
-Applied Kernel SVM on UCF101 (http://crcv.ucf.edu/data/UCF101.php) dataset but with only 10 classes. The feature vectors of activities of the 10 classes are already extracted. Each feature vector has 4096 features. The training data is provided here (http://bit.ly/2HyRsLS).
+Applied Kernel SVM on UCF101 `http://crcv.ucf.edu/data/UCF101.php` dataset but with only 10 classes. The feature vectors of activities of the 10 classes are already extracted. Each feature vector has 4096 features. The training data is provided here `http://bit.ly/2HyRsLS`.
 
 Training data is provided in q3_2_data.mat. Use trD, trLb for training your SVM classifier. Validate your obtained SVM on valD, valLb, then provide the prediction for tstD in a .csv file.
 
